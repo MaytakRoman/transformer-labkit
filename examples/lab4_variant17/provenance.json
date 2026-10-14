@@ -1,0 +1,1 @@
+{"instruction":"Tune thresholds on valid only. Resource numbers are simulated, not hardware benchmarks. Stress and ablation describe synthetic score controls, not interventions on a trained transformer.","kind":"synthetic_control_predictions","trained_model":false}

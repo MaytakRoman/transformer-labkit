@@ -1,0 +1,1 @@
+{"configurations":[{"latency_ms":4.0,"memory_mib":60.0,"name":"A"},{"latency_ms":7.0,"memory_mib":90.0,"name":"B"},{"latency_ms":3.0,"memory_mib":40.0,"name":"C"}],"kind":"simulated_not_measured"}
