@@ -1,0 +1,1 @@
+{"accuracy_min":0.65,"aggregation":"mean","ece_max":0.12000000000000001,"head_dim":6,"heads":1,"lab":1,"latency_max_ms":7,"layers":2,"learning_rate":0.003,"mask_type":"bidirectional","max_length":48,"memory_max_mib":64,"model_width":16,"noise":0.0,"table_seed":135623,"task":"associative","temperature":1.0,"variant":17,"vocab_size":48}
