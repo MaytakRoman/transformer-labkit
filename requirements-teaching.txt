@@ -1,0 +1,5 @@
+# Full teaching stack requested by chapter 8. Install after requirements.txt.
+# PyTorch is optional for the generator and required for student lab 2.
+-r requirements.txt
+matplotlib>=3.7
+torch>=2.2

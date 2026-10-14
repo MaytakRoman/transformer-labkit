@@ -1,0 +1,111 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+  },
+  "unit_tests": {
+    "run": 10,
+    "passed": 9,
+    "skipped": 1,
+    "failed": 0,
+    "returncode": 0
+  },
+  "generator_configurations_checked": 240,
+  "manuscript_variant_rows_matched": 60,
+  "examples_verified": [
+    "lab1_variant17",
+    "lab2_variant17",
+    "lab3_variant17",
+    "lab4_variant17"
+  ],
+  "cli_checks": [
+    {
+      "args": [
+        "transformer_labkit.py",
+        "--lab",
+        "1"
+      ],
+      "returncode": 0,
+      "stdout": "Created: /tmp/tmpq57negvn/lab1",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "transformer_labkit.py",
+        "--verify",
+        "/tmp/tmpq57negvn/lab1"
+      ],
+      "returncode": 0,
+      "stdout": "Verified: /tmp/tmpq57negvn/lab1",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "transformer_labkit.py",
+        "--lab",
+        "2"
+      ],
+      "returncode": 0,
+      "stdout": "Created: /tmp/tmpq57negvn/lab2",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "transformer_labkit.py",
+        "--verify",
+        "/tmp/tmpq57negvn/lab2"
+      ],
+      "returncode": 0,
+      "stdout": "Verified: /tmp/tmpq57negvn/lab2",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "transformer_labkit.py",
+        "--lab",
+        "3"
+      ],
+      "returncode": 0,
+      "stdout": "Created: /tmp/tmpq57negvn/lab3",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "transformer_labkit.py",
+        "--verify",
+        "/tmp/tmpq57negvn/lab3"
+      ],
+      "returncode": 0,
+      "stdout": "Verified: /tmp/tmpq57negvn/lab3",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "transformer_labkit.py",
+        "--lab",
+        "4"
+      ],
+      "returncode": 0,
+      "stdout": "Created: /tmp/tmpq57negvn/lab4",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "transformer_labkit.py",
+        "--verify",
+        "/tmp/tmpq57negvn/lab4"
+      ],
+      "returncode": 0,
+      "stdout": "Verified: /tmp/tmpq57negvn/lab4",
+      "stderr": ""
+    }
+  ],
+  "smoke_test": "Installation, generation and verification: OK",
+  "unverified": [
+    "PyTorch integration: package unavailable; test skipped",
+    "Windows and macOS execution",
+    "Student TODO implementations and transformer training"
+  ],
+  "scope": "Generator contracts and printed NumPy examples; not evidence of transformer quality."
+}

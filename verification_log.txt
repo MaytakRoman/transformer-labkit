@@ -1,0 +1,16 @@
+NumPy fragments 7.1 / 7.2: checks passed
+test_all_240_assignments (test_labkit.GeneratorTests.test_all_240_assignments) ... ok
+test_all_python_syntax (test_labkit.GeneratorTests.test_all_python_syntax) ... ok
+test_all_table_parameters (test_labkit.GeneratorTests.test_all_table_parameters) ... ok
+test_corrupted_file_rejected (test_labkit.GeneratorTests.test_corrupted_file_rejected) ... ok
+test_invalid_masks_rejected (test_labkit.GeneratorTests.test_invalid_masks_rejected) ... ok
+test_listings_numpy (test_labkit.GeneratorTests.test_listings_numpy) ... ok
+test_order_and_role_independence (test_labkit.GeneratorTests.test_order_and_role_independence) ... ok
+test_repeat_logical_hashes (test_labkit.GeneratorTests.test_repeat_logical_hashes) ... ok
+test_semantic_mutation_even_with_new_checksum (test_labkit.GeneratorTests.test_semantic_mutation_even_with_new_checksum) ... ok
+test_contract_gradient_and_checkpoint (test_labkit.TorchTests.test_contract_gradient_and_checkpoint) ... skipped 'PyTorch not installed; optional integration test skipped'
+
+----------------------------------------------------------------------
+Ran 10 tests in 4.305s
+
+OK (skipped=1)
